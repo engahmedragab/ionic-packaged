@@ -207,7 +207,7 @@ module.exports = {
   prod: webpackMerge(prod, customConfig),
 };
 ```
-> as the alias: { "@my/lib": join(__dirname, '../dist/libs') }  is the distnation folder where the package as build and name of it 
+> as the alias: ` { "@my/lib": join(__dirname, '../dist/libs') } ` is the distnation folder where the package as build and name of it 
     
 
 > Note we are requering `webpack-merge` to apply the changes to webpack. So you'll need
@@ -427,6 +427,5 @@ or html file as `home.html` as </custom> is our custom component :
 ```
 
 
-#   i o n i c - p a c k a g e d 
- 
- 
+# ionic-packaged
+
