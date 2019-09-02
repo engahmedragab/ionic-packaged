@@ -361,6 +361,17 @@ and run
 ```bash
 $ npm install ~/my-lib-1.0.0-alpha.0.tgz
 ```
+or add it to the dependencies in the `package.json` file 
+```json
+ },
+  "dependencies": {
+    ...
+    "@angular/compiler-cli": "5.2.11",
+    "@angular/core": "5.2.11",
+    "@my/lib": "~/my-lib-1.0.0-alpha.0.tgz"
+  },
+```
+
 ## include in your application
 
  include in your application. In `app.module.ts`
