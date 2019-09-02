@@ -362,6 +362,7 @@ and run
 $ npm install ~/my-lib-1.0.0-alpha.0.tgz
 ```
 or add it to the dependencies in the `package.json` file 
+
 ```json
  },
   "dependencies": {
