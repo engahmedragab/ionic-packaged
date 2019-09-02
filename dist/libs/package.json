@@ -1,0 +1,26 @@
+{
+  "name": "@my/lib",
+  "version": "1.0.0-alpha.0",
+  "repository": "https://github.com/engahmedragab/ionic-packaged.git",
+  "author": "Ahmed Ragab <elec_eng_ahmedragab@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/core": ">=5.2.10",
+    "@angular/common": ">=5.2.10",
+    "ionic-angular": "3.9.2"
+  },
+  "main": "bundles/my-lib.umd.js",
+  "module": "fesm5/my-lib.js",
+  "es2015": "fesm2015/my-lib.js",
+  "esm5": "esm5/my-lib.js",
+  "esm2015": "esm2015/my-lib.js",
+  "fesm5": "fesm5/my-lib.js",
+  "fesm2015": "fesm2015/my-lib.js",
+  "typings": "my-lib.d.ts",
+  "metadata": "my-lib.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}
